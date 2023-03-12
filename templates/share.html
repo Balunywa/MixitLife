@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Share | Mixit.Life{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Share</h1>
+                    <p class="card-text">DJ: {{ dj }}</p>
+                    <p class="card-text">Station: {{ station }}</p>
+                    <p class="card-text">Playlist URL: <a href="{{ playlist_url }}">{{ playlist_url }}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+
